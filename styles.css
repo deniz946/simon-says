@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+.board {
+    position: relative;
+}
+
+.timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15rem;
+    color: darkorange;
+    font-style: bold;
+    z-index: 1;
+}
+
+
+.top {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.top .left {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    opacity: 0.5;
+}
+
+.top .right {
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.bottom .left {
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.bottom .right {
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    opacity: 0.5;
+}
+
+.bottom {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
